@@ -23,6 +23,6 @@ newImage("/assets/tree.png", 350, 350);
 newImage("/assets/rock.png", 500, 100);
 newImage("/assets/well.png", 680, 250);
 
-newImage("/assets/sword.png", 300, 350);
-newImage("/assets/sheild.png", 300, 250);
-newImage("/assets/staff.png", 300, 150);
+newItem("/assets/sword.png", 300, 350);
+newItem("/assets/sheild.png", 300, 250);
+newItem("/assets/staff.png", 300, 150);
