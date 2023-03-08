@@ -8,9 +8,21 @@ function newImage(url, left, bottom) {
   return object;
 }
 
-newImage("/assets/green-character.gif", 200, 200);
-newImage("/assets/red-character.gif", 200, 400);
+function newItem(url, left, bottom) {
+  let object = newImage(url, left, bottom);
+
+  object.addEventListener("dblclick", () => {
+    object.remove();
+  });
+}
+
+newImage("/assets/green-character.gif", 180, 150);
+newImage("/assets/red-character.gif", 180, 350);
 newImage("/assets/pine-tree.png", 600, 300);
-newImage("/assets/sword.png", 300, 400);
-newImage("/assets/sheild.png", 300, 300);
-newImage("/assets/staff.png", 300, 200);
+newImage("/assets/tree.png", 350, 350);
+newImage("/assets/rock.png", 500, 100);
+newImage("/assets/well.png", 680, 250);
+
+newImage("/assets/sword.png", 300, 350);
+newImage("/assets/sheild.png", 300, 250);
+newImage("/assets/staff.png", 300, 150);
